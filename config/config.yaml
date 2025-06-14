@@ -1,0 +1,7 @@
+# Configuration for broker-gibrid
+
+mode: local
+storage: memory
+delivery_guarantee: at-least-once
+
+# Add more configuration options as needed

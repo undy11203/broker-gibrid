@@ -1,0 +1,66 @@
+# VSCode
+.vscode/
+.history/
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# C++ build files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.lo
+*.la
+*.lai
+*.ncb
+*.sdf
+*.opensdf
+*.idb
+*.pdb
+*.ipch
+*.iobj
+*.ipdb
+*.cache
+*.ilk
+*.log
+*.vspscc
+*.vssscc
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Go
+bin/
+pkg/
+*.exe
+*.test
+*.out
+
+# Misc
+*.log
+*.tmp
+*.temp
+*.swp
+*.DS_Store
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.ipr
+*.iws
+*.bak
+*.orig
+*.rej
+*.swo
+*.swn
+*.lock
