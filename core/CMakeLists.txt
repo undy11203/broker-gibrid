@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(broker_core LANGUAGES CXX)
+project(core_broker LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -14,12 +14,6 @@ else()
     message(FATAL_ERROR "Boost not found")
 endif()
 
-# Add source files (placeholder)
-set(SOURCES
-    broker.cpp
-    # Add other source files here
-)
+add_executable(core_broker main.cpp)
 
-add_library(broker_core STATIC \${SOURCES})
-
-target_link_libraries(broker_core PRIVATE \${Boost_LIBRARIES})
+target_link_libraries(core_broker PRIVATE ${Boost_LIBRARIES})
